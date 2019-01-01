@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/navigation_executar"
+            android:icon="@drawable/ic_action_executar"
+            android:title="@string/menu_executar" />
+
+        <item
+            android:id="@+id/navigation_sincronizar"
+            android:icon="@drawable/ic_action_sincronizar"
+            android:title="@string/menu_sincronizar" />
+
+        <item
+            android:id="@+id/navigation_finalizar"
+            android:icon="@drawable/ic_action_finalizar"
+            android:title="@string/menu_finalizar" />
+
+    </group>
+
+</menu>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.PendenteFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:textSize="22sp"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"
+        android:text="@string/questionario_nao_sincronizado"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:visibility="gone"
+        android:id="@+id/text_view_questionario_sincronizar"
+        android:text="@string/nao_ha_questionario_sincronizar"
+        android:textSize="14sp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview_pendente_sincronizar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:cacheColorHint="@android:color/transparent"
+        android:clipToPadding="false"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:listSelector="@android:color/transparent"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbars="vertical" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="@string/button_sincroniza"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorWhite"
+        android:id="@+id/button_sincronizar_pendente"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:padding="8dp"
+        android:contentDescription="@string/content_description"
+        android:id="@+id/image_view_logo_pendente"
+        android:visibility="gone"
+        android:src="@drawable/logo"/>
+
+</LinearLayout>

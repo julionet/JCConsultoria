@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">JC Consultoria</string>
+    <string name="content_description">Imagem</string>
+    <string name="hint_email">E-mail</string>
+    <string name="hint_senha">Senha</string>
+    <string name="button_acessar">Acessar</string>
+    <string name="menu_finalizar">Finalizar</string>
+    <string name="porfavor_aguarde">Por favor aguarde!</string>
+    <string name="carregando_informacoes">Carregando informações…</string>
+    <string name="menu_executar">Executar Checklist</string>
+    <string name="menu_sincronizar">Sincronizar Questionários</string>
+    <string name="questionario_nao_sincronizado">Sincronizar Questionários</string>
+    <string name="nao_ha_questionario_sincronizar">Não há questionários para serem sincronizados</string>
+    <string name="text_view_empresas">Empresas</string>
+    <string name="button_sincroniza">Sincronizar</string>
+    <string name="dispositivo_sem_internet">Dispositivo com conexão instável ou sem acesso a internet.\nVerifique se sua conexão está disponível.\nPor favor, tente novamente.</string>
+    <string name="hint_subresposta">Subresposta</string>
+    <string name="fotos_anexadas">Fotos (0 anexadas)</string>
+</resources>
